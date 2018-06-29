@@ -1,13 +1,14 @@
 import React from 'react';
 
-function About() {
+function OnTap() {
   return (
     <div>
       <style jsx>{`
-        
+
       `}</style>
-      <p>About Component Working</p>
+
+    <p>OnTap Component Works</p>
     </div>
   );
 }
-export default About;
+export default OnTap;

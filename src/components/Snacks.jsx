@@ -1,14 +1,14 @@
 import React from 'react';
 
-function Component() {
+function Snacks() {
   return (
     <div>
       <style jsx>{`
 
       `}</style>
 
-      <p>Component Component Works</p>
+    <p>Snacks Component Works</p>
     </div>
   );
 }
-export default Component;
+export default Snacks;

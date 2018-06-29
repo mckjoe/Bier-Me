@@ -2,8 +2,10 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Error404 from './Error404';
 import Home from './Home';
-import About from './About';
-import Component from './Component';
+import Admin from './Admin';
+import OnTap from './OnTap';
+import Bottles from './Bottles';
+import Snacks from './Snacks';
 import { Link } from 'react-router-dom';
 
 function App(){
@@ -26,13 +28,17 @@ function App(){
       `}</style>
       <ul className="nav-links">
         <Link to="/"><li>Home</li></Link>
-        <Link to="/component"><li>Component</li></Link>
-        <Link to="/about"><li>About</li></Link>
+        <Link to="/OnTap"><li>OnTap</li></Link>
+        <Link to="/bottles"><li>Bottles</li></Link>
+        <Link to="/snacks"><li>Snacks</li></Link>
+        <Link to="/admin"><li>Admin</li></Link>
       </ul>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route path='/component' component={Component} />
-        <Route path='/about' component={About} />
+        <Route path='/OnTap' component={OnTap} />
+        <Route path='/bottles' component={Bottles} />
+        <Route path='/snacks' component={Snacks} />
+        <Route path='/admin' component={Admin} />
         <Route component={Error404} />
       </Switch>
     </div>
