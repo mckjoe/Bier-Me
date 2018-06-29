@@ -2,10 +2,10 @@
 Bier Haus
 
 ## About
-This is a fictional tap list for a local beer drinking hang created using React
+This is a fictional tap list for a local beer drinking hang created using React.
 
 ## Description
-Originally Bier Haus was created in Angular and followed the Angular component structure, but the goal this time around is to make it with the React component structure.  Im going to follow along with my original site as much as possible, but in the Angular version I didn't do much styling and didn't have any routing, so at some point I'm going to have to deviate from the original project so that I can have more work to do.
+Originally Bier Haus was created in Angular and followed the Angular component structure, but the goal this time around is to make it with the React component structure.  Im going to follow along with my original site as much as possible, but in the Angular version I didn't do much styling and didn't have any routing, so at some point I'm going to have to deviate from the original project so that I can have more work to do.  The original angular version can be viewed at https://github.com/mckjoe/Bier-Haus, clone that project to your desktop, type npm install into your terminal from the projects home directory, then when all dependencies are installed type "ng serve --open" and the project will open in a live development server.  There is also a screen shot of the priginal project in the folder marked drawings_componentTree.
 
 ### Planning
 Since I am re-doing a site that had relatively little styling or layout work done on it, I plan to spend a little time this morning planning out how I want my site to look when it is done.  I'll do a couple of quick sketches so I can plan my component structure then start getting things put into place before I start coding anything. The sketches are available to be viewed in the folder titled drawings_componentTree in the top level of my project directory.
