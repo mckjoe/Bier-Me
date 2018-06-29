@@ -6,6 +6,10 @@ function Hours() {
       <style jsx>{`
         ul {
           list-style: none;
+          padding-left: 0;
+        }
+        h2 {
+          text-align: center;
         }
       `}</style>
       <div className="hours">

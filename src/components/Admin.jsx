@@ -6,7 +6,7 @@ function Admin() {
       <style jsx>{`
 
       `}</style>
-    <p>Admin Component Working</p>
+      <p>Admin Component Working</p>
     </div>
   );
 }

@@ -7,7 +7,7 @@ function Snacks() {
 
       `}</style>
 
-    <p>Snacks Component Works</p>
+      <p>Snacks Component Works</p>
     </div>
   );
 }

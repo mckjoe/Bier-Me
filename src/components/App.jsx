@@ -7,7 +7,7 @@ import Admin from './Admin';
 import OnTap from './OnTap';
 import Bottles from './Bottles';
 import Snacks from './Snacks';
-import { Link } from 'react-router-dom';
+
 
 function App(){
 
@@ -18,6 +18,7 @@ function App(){
           margin: 0;
           padding: 0;
           box-sizing: border-box;
+          background-color: tan;
         }
         .nav-links {
           display: flex;

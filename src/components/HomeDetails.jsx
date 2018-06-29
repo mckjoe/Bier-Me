@@ -9,6 +9,16 @@ function HomeDetails() {
         .flex {
           display: flex;
           justify-content: space-evenly;
+          background-color: white;
+          opacity: .7;
+          
+        }
+        @media (max-width: 400px){
+          {
+            .flex {
+              display: block;
+            }
+          }
         }
       `}</style>
       <div className="flex">
@@ -16,6 +26,6 @@ function HomeDetails() {
         <Location />
       </div>
     </div>
-  )
+  );
 }
 export default HomeDetails;

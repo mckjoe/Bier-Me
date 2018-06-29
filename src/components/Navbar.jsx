@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/images/nav-logo.jpeg';
 
@@ -11,6 +11,7 @@ function Navbar() {
           justify-content: space-between;
           align-items: center;
           border-bottom: 1px solid gray;
+          background-color: white;
         }
         .nav-bar {
           display: flex;
