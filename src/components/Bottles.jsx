@@ -13,7 +13,7 @@ const KEG_LIST = [
     image: zozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine & Grapefruit',
+    description: 'Sparkling Wine',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -67,7 +67,7 @@ const KEG_LIST = [
     image: zozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine & Grapefruit',
+    description: 'Sparkling Wine',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -142,6 +142,7 @@ function Bottles() {
           background-color: white;
           width: 30%;
           padding: 25px 50px;
+          opacity: .8;
         }
         @media (max-width: 650px) {
           .grid {
@@ -156,7 +157,7 @@ function Bottles() {
       `}</style>
 
     <img className="banner" src={bottles}/>
-      <h3 className="text-box">What's On Tap?</h3>
+      <h3 className="text-box">What's in the bottle?</h3>
 
     <div className="grid">
         {KEG_LIST.map((keg, index) =>

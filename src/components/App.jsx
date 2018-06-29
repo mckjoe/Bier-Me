@@ -18,7 +18,7 @@ function App(){
           margin: 0;
           padding: 0;
           box-sizing: border-box;
-          background-color: tan;
+          background-color: black;
         }
         .nav-links {
           display: flex;

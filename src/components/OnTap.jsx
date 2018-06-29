@@ -13,7 +13,7 @@ const KEG_LIST = [
     image: rubyzozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine & Grapefruit',
+    description: 'Sparkling Wine',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -67,7 +67,7 @@ const KEG_LIST = [
     image: rubyzozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine & Grapefruit',
+    description: 'Sparkling Wine',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -134,7 +134,7 @@ function OnTap() {
         .banner {
           width: 100%;
           display: block;
-          margin: 0 auto;
+          margin: 25px auto 0;
         }
         .text-box {
           text-align: center;
@@ -142,6 +142,7 @@ function OnTap() {
           background-color: white;
           width: 30%;
           padding: 25px 50px;
+          opacity: .8;
         }
         @media (max-width: 650px) {
           .grid {

@@ -20,6 +20,9 @@ function Beer(props) {
           display: flex;
           justify-content: space-between;
         }
+        span {
+          color: green;
+        }
       `}</style>
 
     <div>
@@ -31,8 +34,8 @@ function Beer(props) {
           <p>{props.description}</p>
         </div>
         <p>ABV: {props.abv}</p>
-        <p>Cost: ${props.price}.00</p>
-        <p>Remaining in keg: {props.remaining} pours</p>
+        <p><span>Cost: ${props.price}.00</span></p>
+        <p>Beers Remaining: {props.remaining}</p>
       </div>
 
     </div>
