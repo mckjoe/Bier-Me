@@ -69,7 +69,7 @@ const SNACK_LIST = [
     snack: 'burger',
     cost: '7.00',
   }
-]
+];
 function Snacks() {
   return (
     <div>

@@ -26,5 +26,9 @@ function Snack(props) {
     </div>
   );
 }
-
+Snack.propTypes = {
+  image: PropTypes.string.isRequired,
+  snack: PropTypes.string.isRequired,
+  cost: PropTypes.string.isRequired,
+};
 export default Snack;
