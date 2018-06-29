@@ -1,5 +1,7 @@
 import React from 'react';
 import masthead from '../assets/images/home-page-banner.jpg';
+import AboutUs from './AboutUs';
+
 function Home() {
   return (
     <div>
@@ -13,6 +15,7 @@ function Home() {
       <div>
         <img className="home-banner" src={masthead}/>
       </div>
+      <AboutUs />
     </div>
 
   );
