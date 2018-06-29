@@ -8,16 +8,31 @@ function Beer(props) {
         .beer p {
           margin: 5px 0;
         }
+        img {
+          width: 100%;
+        }
+        .beer {
+          background-color: snow;
+          opacity: .8;
+          padding: 15px 25px;
+        }
+        .flex {
+          display: flex;
+          justify-content: space-between;
+        }
       `}</style>
 
     <div>
       <div className="beer">
+        <img src={props.image}/>
         <h3>{props.name}</h3>
-        <p>{props.brewer}</p>
-        <p>{props.description}</p>
-        <p>{props.abv}</p>
-        <p>{props.price}</p>
-        <p>{props.remaining}</p>
+        <div className="flex">
+          <p>Type: {props.brewer}</p>
+          <p>{props.description}</p>
+        </div>
+        <p>ABV: {props.abv}</p>
+        <p>Cost: ${props.price}.00</p>
+        <p>Remaining in keg: {props.remaining} pours</p>
       </div>
 
     </div>
@@ -25,6 +40,7 @@ function Beer(props) {
   );
 }
 Beer.propTypes = {
+  image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   brewer: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
