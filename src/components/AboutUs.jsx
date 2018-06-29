@@ -9,7 +9,7 @@ function AboutUs() {
           display: grid;
           grid-template-columns: 1fr 1fr;
           align-items: center;
-          margin-top: 25px;
+          margin-top: 15px;
         }
         .about-us {
           width: 80%;
@@ -21,6 +21,7 @@ function AboutUs() {
         .employees {
           width: 96%;
           margin: 0 2%;
+          transform: translateY(-5px);
         }
         @media (max-width: 758px) {
           .grid {
