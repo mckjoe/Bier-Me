@@ -1,6 +1,6 @@
 import React from 'react';
 import Beer from './Beer.jsx';
-import taps from '../assets/images/taps.jpg'
+import taps from '../assets/images/taps.jpg';
 import rubyzozzle from '../assets/images/ruby-zozzle.jpg';
 import tartjuicy from '../assets/images/tart-juicy.jpg';
 import hamms from '../assets/images/hamms.jpg';
@@ -13,7 +13,7 @@ const KEG_LIST = [
     image: rubyzozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine',
+    description: 'Sparkling',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -30,7 +30,7 @@ const KEG_LIST = [
   {
     image: hamms,
     name: 'Hamm\'s',
-    brewer: 'Miller/Coors',
+    brewer: 'Coors',
     description: 'American Lager',
     abv: '4.7%',
     price: '3',
@@ -49,7 +49,7 @@ const KEG_LIST = [
     image: belgium,
     name: 'Juicy Haze',
     brewer: 'New Belgium',
-    description: 'India Pale Ale',
+    description: 'IPA',
     abv:  '7.5%',
     price: '6',
     remaining: '18'
@@ -67,7 +67,7 @@ const KEG_LIST = [
     image: rubyzozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine',
+    description: 'Sparkling',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -84,7 +84,7 @@ const KEG_LIST = [
   {
     image: hamms,
     name: 'Hamm\'s',
-    brewer: 'Miller/Coors',
+    brewer: 'Coors',
     description: 'American Lager',
     abv: '4.7%',
     price: '3',
@@ -103,7 +103,7 @@ const KEG_LIST = [
     image: belgium,
     name: 'Juicy Haze',
     brewer: 'New Belgium',
-    description: 'India Pale Ale',
+    description: 'IPA',
     abv:  '7.5%',
     price: '6',
     remaining: '18'
@@ -159,7 +159,7 @@ function OnTap() {
       <img className="banner" src={taps}/>
       <h3 className="text-box">What's On Tap?</h3>
 
-    <div className="grid">
+      <div className="grid">
         {KEG_LIST.map((keg, index) =>
           <Beer image={keg.image}
             name={keg.name}

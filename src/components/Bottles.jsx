@@ -13,7 +13,7 @@ const KEG_LIST = [
     image: zozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine',
+    description: 'Sparkling',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -30,7 +30,7 @@ const KEG_LIST = [
   {
     image: hammys,
     name: 'Hamm\'s',
-    brewer: 'Miller/Coors',
+    brewer: 'Coors',
     description: 'American Lager',
     abv: '4.7%',
     price: '3',
@@ -49,7 +49,7 @@ const KEG_LIST = [
     image: juicy,
     name: 'Juicy Haze',
     brewer: 'New Belgium',
-    description: 'India Pale Ale',
+    description: 'IPA',
     abv:  '7.5%',
     price: '6',
     remaining: '18'
@@ -67,7 +67,7 @@ const KEG_LIST = [
     image: zozzle,
     name: 'Ruby Zozzle',
     brewer: 'Hi-Wheel',
-    description: 'Sparkling Wine',
+    description: 'Sparkling',
     abv: '6.8%',
     price: '7',
     remaining: '20'
@@ -84,7 +84,7 @@ const KEG_LIST = [
   {
     image: hammys,
     name: 'Hamm\'s',
-    brewer: 'Miller/Coors',
+    brewer: 'Coors',
     description: 'American Lager',
     abv: '4.7%',
     price: '3',
@@ -103,7 +103,7 @@ const KEG_LIST = [
     image: juicy,
     name: 'Juicy Haze',
     brewer: 'New Belgium',
-    description: 'India Pale Ale',
+    description: 'IPA',
     abv:  '7.5%',
     price: '6',
     remaining: '18'
@@ -156,10 +156,10 @@ function Bottles() {
         }
       `}</style>
 
-    <img className="banner" src={bottles}/>
+      <img className="banner" src={bottles}/>
       <h3 className="text-box">What's in the bottle?</h3>
 
-    <div className="grid">
+      <div className="grid">
         {KEG_LIST.map((keg, index) =>
           <Beer image={keg.image}
             name={keg.name}

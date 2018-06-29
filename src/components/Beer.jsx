@@ -25,20 +25,20 @@ function Beer(props) {
         }
       `}</style>
 
-    <div>
-      <div className="beer">
-        <img src={props.image}/>
-        <h3>{props.name}</h3>
-        <div className="flex">
-          <p>Type: {props.brewer}</p>
-          <p>{props.description}</p>
+      <div>
+        <div className="beer">
+          <img src={props.image}/>
+          <h3>{props.name}</h3>
+          <div className="flex">
+            <p>Type: {props.brewer}</p>
+            <p>{props.description}</p>
+          </div>
+          <p>ABV: {props.abv}</p>
+          <p><span>Cost: ${props.price}.00</span></p>
+          <p>Beers Remaining: {props.remaining}</p>
         </div>
-        <p>ABV: {props.abv}</p>
-        <p><span>Cost: ${props.price}.00</span></p>
-        <p>Beers Remaining: {props.remaining}</p>
-      </div>
 
-    </div>
+      </div>
     </div>
   );
 }
